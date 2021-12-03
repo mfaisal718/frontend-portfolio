@@ -9,6 +9,12 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 
+import 'bulma/css/bulma.min.css';
+import { Button } from 'react-bulma-components';
+import { Form } from 'react-bulma-components';
+
+
+
 function App() {
   // URL should have YOUR HEROKU URL for your backend, make sure you include the trailing slash
   const URL = "https://mohammed-faisal-portfolio.herokuapp.com/";
