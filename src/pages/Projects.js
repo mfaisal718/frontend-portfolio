@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Card } from "react-bulma-components";
 import { Button } from "react-bulma-components";
+import { Content } from "react-bulma-components";
 
 function Projects(props) {
   // create state to hold projects
@@ -25,7 +26,10 @@ function Projects(props) {
       <Card style={{ width: 300, margin: "auto" }}>
         <Card.Header.Title />
         <h1>{project.name}</h1>
-        <Card.Image src={project.image} alt={player.name} />
+        <Card.Image src={project.image} alt={project.name} />
+        <Card.Content>
+          <Content>{project.Description} </Content>
+        </Card.Content>
         <a href={project.git}>
           <Button color="success" type="submit" value="Github" size="small">
             Github
