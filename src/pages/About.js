@@ -27,7 +27,7 @@ function About(props) {
       <Card.Content>
         <Content>{about.bio} </Content>
       </Card.Content>
-      <a href="https://docs.google.com/document/d/1NirVotHvVRpQFVcQT6BtyGG5GbAdxNTe/edit?usp=sharing&ouid=115244396076401015051&rtpof=true&sd=true">
+      <a href="https://drive.google.com/file/d/1JX3MBzn7iM88mGv_WpdW5hTjAjZkEkjf/view?usp=sharing">
         <Button
           class="button is-info is-rounded"
           type="submit"
@@ -35,6 +35,16 @@ function About(props) {
           size="small"
         >
           RESUME
+        </Button>
+      </a>
+      <a href="https://www.linkedin.com/in/mohammed-faisal-nyc/">
+        <Button
+          class="button is-info is-rounded"
+          type="submit"
+          value="linkedin"
+          size="small"
+        >
+          LINKEDIN
         </Button>
       </a>
     </Card>
